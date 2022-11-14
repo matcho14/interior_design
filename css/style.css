@@ -1,0 +1,337 @@
+/* :root{
+    --pink:#e84393;
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Tenor+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/* first sec */
+.first-sec{
+    height: 100vh;
+    background-color: #e0d4bd;
+    padding-top: 5rem;
+    position: relative;
+    
+}
+.first-sec .contain{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1190px;
+    height: 90vh;
+    
+}
+nav .navbar-brand{
+    font-size: 2.5rem;
+    margin-right: 5rem;
+}
+nav .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+    margin: auto;
+}
+nav .links a{
+    font-size: 2rem;
+    color: #494949;
+}
+nav .links button{
+    width: 8rem;
+    font-size: 1.5rem;
+    border-radius: 2.5rem;
+    background-color: #494949;
+    color: #e0d4bd;
+    font-weight: 400;
+}
+.first-sec .content{
+    width: 1190px;
+    height: 85vh;
+   
+    margin-top: 2rem;
+    padding: 5rem 1rem;
+    position: relative;
+}
+.first-sec .content h1{
+    font-family: 'Tenor Sans', sans-serif;
+    text-align: center;
+    color: #976a4e;
+}
+.first-sec .content h3{
+    TEXT-ALIGN: center;
+    margin-top: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.first-sec .content p{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #3e3e3e;
+    margin-top: 3rem;
+}
+.first-sec span {
+    width: 100%;
+    position: absolute;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    background-color: #976a4e;
+}
+.first-sec .cheslong{
+    position: absolute;
+    top: 145px;
+    left: 10px;
+}
+.first-sec .lamp img{
+    width: 750px;
+}
+.first-sec .lamp{
+    position: absolute;
+    top: 145px;
+    left: 0px;
+}
+.first-sec .plant{
+    position: absolute;
+    top: 350px;
+    right: 0px;
+}
+.first-sec .plant img{
+    width: 700px;
+}
+/*  INFO */
+.info{
+    height: 20rem;
+    background-color: #494949;
+}
+.info .contain{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1190px;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+.info .contain .card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.info .contain .card-info p{
+    font-size: 4rem;
+    color: #daceb8;
+}
+.info .contain .card-info h4{
+    font-size: 1.5rem;
+    color: #daceb8;
+}
+/* our serveice */
+.our-serv{
+    height:75vh;
+    background-color: #e0d4bd;
+    padding: 1rem 0rem;
+}
+.our-serv .contain{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1190px;
+    height: 70vh;
+    
+    padding-top: 3rem;
+   
+ 
+}
+.our-serv .contain .head{
+    margin-left: 40%;
+}
+.our-serv .contain .head h1{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #976a4e;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.our-serv .contain .head p{
+    text-align: center;
+    margin-left: -42rem;
+}
+.our-serv .contain .card-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin-top: 2rem;
+}
+.our-serv .contain .card-contain .card{
+    flex-basis: 30%;
+    height: 50rem;
+    padding: 2rem;
+    background-color: #e0d4bd;
+    border: none;
+}
+.our-serv .contain .card-contain .card img{
+    width: 18rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+.our-serv .contain .card-contain .card .card-title{
+    font-size: 2rem;
+    margin-left: 7rem;
+    color: #976a4e;
+    margin-bottom: 2rem;
+}
+.our-serv .contain .card-contain .card .card-text {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.our-serv .contain .card-contain .card .btn{
+    color: #976a4e;
+    border: 1px solid #976a4e;
+    border-radius: 3rem;
+    margin-left: 7rem;
+}
+/* our projects */
+.our-projects{
+    height: 70vh;
+    background-color: #976a4e;
+    
+}
+.our-projects .contain{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1190px;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.our-projects .contain .left{
+    flex-basis: 40%;
+    padding-left: 4rem;
+    height: 60vh;
+}
+.our-projects .contain .left img{
+    width: 50rem;
+    height: 70vh;
+}
+.our-projects .contain .right{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-projects .contain .right h1{
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top: -5rem;
+    color: #e0d4bd;
+    font-size: 4rem;
+    
+}
+
+.our-projects .contain .right p{
+    text-align: center;
+    color: #e0d4bd;
+    font-size: 1.2rem;
+}
+.our-projects .contain .right button{
+    width: 8rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 2rem;
+    color: #976a4e;
+    background-color:#e0d4bd ;
+}
+/* forniture */
+.fornniture{
+    height: 70vh;
+    background-color: #e0d4bd;
+    position: relative;
+    padding-top: 1rem;
+    z-index: -2;
+
+}
+.fornniture .foot{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d1c5af;
+    height: 20rem;
+    z-index: -1;
+}
+.fornniture .img{
+    position: absolute;
+    right: 0;
+    top: 9rem;
+}
+.fornniture .img img{
+    width: 60rem;
+}
+.fornniture .contain{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1190px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    z-index: 2;
+}
+.fornniture .left{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.fornniture .contain .left h1{
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top: -5rem;
+    color: #3d3d3d;
+    font-size: 4rem;
+    
+}
+
+.fornniture .contain .left p{
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 1.2rem;
+}
+.fornniture .contain .left button{
+    width: 8rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 2rem;
+    color: #976a4e;
+    background-color:#3d3d3d ;
+}
+.fornniture .contain .right img{
+    width: 50rem;
+}
